@@ -6,5 +6,4 @@ router
     .get("/", whatsappControllers.VerifyToken)
     .post("/", whatsappControllers.RecieveMessage)
 
-
 module.exports = router;
